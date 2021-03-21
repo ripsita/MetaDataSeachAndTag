@@ -13,7 +13,7 @@ TF-IDF or ( Term Frequency(TF) — Inverse Dense Frequency(IDF) )is a technique 
 **Text in Description is pre-processed by removing unwanted characters and words.** 
 Stop words are removed and all the words are lemmatized.Stop words are a set of commonly used words in a language. Examples of stop words in English are “a”, “the”, “is”, “are” and etc. The intuition behind using stop words is that, by removing low information words from text, we can focus on the important words instead.
 
-**Lowercasing** ALL your text data, although commonly overlooked, is one of the simplest and most effective form of text preprocessing.
+**Lowercasing** ALL our text data, although commonly overlooked, is one of the simplest and most effective form of text preprocessing.
 removed Punchuation 
 
 **Created cosine similarity matrix**
