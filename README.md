@@ -1,2 +1,4 @@
 # MetaDataSeachAndTag
-git remote add origin https://github.com/ripsita/MetaDataSeachAndTag.git
+
+# Referance Data
+can be downloaded from https://ripsita-meta.herokuapp.com/api/v1/metatagger/refdata
