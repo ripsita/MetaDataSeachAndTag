@@ -5,9 +5,8 @@ In this practical, we will use Wikipedia to create a small collection of documen
 
 below are the process followed to builed the project:
 ### Tranforming the data into features:
-Convert our raw texts into sets of features. We will do this using a vocabulary of character ngrams.
-### Feature selection
-
+Convert our raw texts into sets of featur using a vocabulary of character ngrams.
+### Feature selection:
 **Documention Information Retrieval using TF-IDF measure**
 TF-IDF or ( Term Frequency(TF) — Inverse Dense Frequency(IDF) )is a technique which is used to find meaning of sentences consisting of words and cancels out the incapabilities of Bag of Words technique which is good for text classification or for helping a machine read words in numbers. However, it just blows up in your face when you ask it to understand the meaning of the sentence or the document.
 
@@ -20,8 +19,11 @@ removed Punchuation
 **Created cosine similarity matrix**
 
 Cosine similarity is a metric used to measure how similar the documents are irrespective of their size. Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance (due to the size of the document), chances are they may still be oriented closer together. The smaller the angle, higher the cosine similarity.
+
 ### c.Mapping queries to topics
 
 
 # Referance Data
 can be downloaded from https://ripsita-meta.herokuapp.com/api/v1/metatagger/refdata
+**nltk,numpy,pandas and re**  python inbuild libraies are used to developed the code
+
